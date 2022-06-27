@@ -31,6 +31,7 @@ import { TopMenuLinkDirective } from './directives/topmenu-link.directive';
 import { TopMenuDropdownDirective } from './directives/topmenu-dropdown.directive';
 import { TopMenuAnchorToggleDirective } from './directives/topmenu-anchor-toggle.directive';
 import { ChecklistTableComponent } from './components/checklist_table/checklist-table/checklist-table.component';
+import { AddableDeletableListComponent } from './components/addable-deletable-list/addable-deletable-list.component';
 
 
 @NgModule({
@@ -78,6 +79,7 @@ import { ChecklistTableComponent } from './components/checklist_table/checklist-
         TopMenuAnchorToggleDirective,
         TopMenuDirective,
         ChecklistTableComponent,
+        AddableDeletableListComponent,
     ]
 })
 export class SharedModule { }
