@@ -33,6 +33,10 @@ import { TopMenuAnchorToggleDirective } from './directives/topmenu-anchor-toggle
 import { ChecklistTableComponent } from './components/checklist_table/checklist-table/checklist-table.component';
 import { AddableDeletableListComponent } from './components/addable-deletable-list/addable-deletable-list.component';
 import { GraphComponent } from './components/graph/graph.component';
+import { FormWizardComponent } from './components/form-wizard/form-wizard.component';
+import { FormWizardStepperComponent } from './components/form-wizard/form-wizard-stepper/form-wizard-stepper.component';
+import { ProgressStepComponent } from './components/form-wizard/form-wizard-stepper/progress-step/progress-step.component';
+import { ProgressStepDirective } from './components/form-wizard/form-wizard-stepper/progress-step.directive';
 
 
 @NgModule({
@@ -82,6 +86,10 @@ import { GraphComponent } from './components/graph/graph.component';
         ChecklistTableComponent,
         AddableDeletableListComponent,
         GraphComponent,
+        FormWizardStepperComponent,
+        ProgressStepComponent,
+        ProgressStepDirective,
+        FormWizardComponent,
     ]
 })
 export class SharedModule { }
